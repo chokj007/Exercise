@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Explora&display=swap');
+
+*{ 
+    background-color: rgb(188, 124, 188);
+}
+
+h1{ 
+    font-family: 'Explora', cursive;
+}
