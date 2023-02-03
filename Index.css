@@ -1,10 +1,81 @@
-@import url('https://fonts.googleapis.com/css2?family=Explora&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Gamja+Flower&family=Kalam:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gamja+Flower&family=Kalam:wght@300&family=Mali:wght@300&display=swap');
 *{ 
     background-color: rgb(188, 124, 188);
 }
 
 h1{ 
-    font-family: 'Explora', cursive;
-    font-size: large;
+font-family: 'Gamja Flower', cursive;
+text-align: center;
+padding: 40%;
+min-width: 40ch;
+font-size: 200%;
 }
+
+h2 {font-family: 'Mali', cursive;
+    font-size: 30px;
+    text-align: center;
+color: azure;}
+
+
+    header{ 
+        display:flex;
+        justify-content: space-between;
+        padding: 80px;
+        }
+
+        a:hover{
+            background-image: url("Cute.gif");
+            background-position: center;
+            background-size: contain;
+          }
+
+/* classes */
+
+.wrap{
+    float: left;
+    margin: 5px;
+    } 
+
+    .Header {
+        writing-mode: vertical-rl;
+        text-orientation: mixed; 
+        padding: 2%;
+      }
+
+    .panda{ 
+        width: 400px;
+    }
+
+    .bkg{
+        background-image: url("lama.gif");
+        background-repeat: repeat;
+
+    }
+
+    .child{
+    float: right;
+    margin: 5px;
+    width: 260px
+    }
+
+
+    .moving{
+        height: 290px;
+        overflow: hidden;
+        position: relative;
+        margin: 10;
+        line-height: 50px;
+        object-fit: contain;
+    
+        transform:translateX(-100%);
+        animation: marquee1 4s linear infinite;
+        }
+    
+        @keyframes marquee1 {
+        0%{ transform: translateX(-100%);
+        }
+        100% {
+        transform: translateX(100%);
+        }
+        }
