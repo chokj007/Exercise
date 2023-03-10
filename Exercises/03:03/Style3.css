@@ -1,0 +1,83 @@
+
+
+div{ 
+    font-size: 40px; 
+    text-align:center;
+    padding: 5%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* NOUN SPANS */
+
+#nounSpan{ 
+    color:rgb(198, 160, 94);
+}
+
+#nounSpan2 { 
+    color:rgb(198, 160, 94);
+}
+
+#nounSpan3 { 
+    color:rgb(198, 160, 94);
+}
+
+#nounSpan4 { 
+    color:rgb(198, 160, 94);
+}
+
+
+#nounSpan:hover { 
+    color: rgb(198, 94, 196);
+    font-size: 60px
+}
+
+/* VERB SPANS */
+
+#verbSpan { 
+    color: rgb(94, 94, 198)
+}
+
+#verbSpan2 { 
+    color: rgb(94, 94, 198)
+}
+
+#verbSpan3 { 
+    color: rgb(94, 94, 198)
+}
+
+
+#verbSpan:hover { 
+    color:rgb(149, 198, 94);
+    font-size: 60px;
+}
+
+/* VERB SPANS */
+
+
+#adjectiveSpan { 
+    color: rgb(149, 198, 94)
+}
+
+#adjectiveSpan:hover { 
+    color:rgb(94, 94, 198);
+    font-size: 60px;
+}
+
+#eventSpan { 
+    color:rgb(198, 94, 196)
+   
+}
+
+#eventSpan:hover { 
+    color: rgb(198, 160, 94);
+    font-size: 100px;
+}
+
+.wrapper { 
+    margin: 15%
+}
+
+
+.custom {
+    cursor: url(MadLibs_logo_no_Phil.png), auto;
+}  

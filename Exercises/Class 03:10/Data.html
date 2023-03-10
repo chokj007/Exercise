@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="Data.css">
+    </head>
+    <body class="flex">
+      
+        <section id="holder"> 
+
+
+        </section>
+       
+        
+        <script> 
+
+let goobers = [
+{
+    "name" : "boo-boo",
+    "backgroundColor": "red",
+    "textColor": "yellow",
+    "type" : "fire",
+    "skill" : "fire-toss",
+    "weakness" : "Water",
+    "catchPhrase" : "You can't catch boo boo!",
+    "image": "assets/boo-boo.jpg"
+},
+
+{
+    "name" : "smoooshee",
+    "backgroundColor": "Aqua",
+    "textColor": "maroon",
+    "type" : "water",
+    "skill" : "swim spiral",
+    "weakness" : "Meanness",
+    "catchPhrase" : "Please don't be mean to me!",
+    "image": "assets/smoooshee.png"
+}, 
+
+{
+    "name" : "danger Poodle",
+    "backgroundColor": "orange",
+    "textColor": "light blue",
+    "type" : "cool",
+    "skill" : "chaos",
+    "weakness" : "boring stuff",
+    "catchPhrase" : "**Breaks Things**", 
+    "image": "assets/danger Poodle.jpeg"
+    
+    
+}, 
+
+{
+    "name" : "Mecha Anchovie",
+    "backgroundColor": "gray",
+    "textColor": "lime green",
+    "type" : "light blue",
+    "skill" : "smells",
+    "weakness" : "cats",
+    "catchPhrase" : "BLEEEEEEEEEEEEE",
+    "image": "assets/Mecha Anchovie.png"
+}, 
+
+
+]
+
+let firstJSON = [
+
+{ "name" : "Jayna",
+"fav. color" : "navy blue",
+"age" : "19",
+"last name" : "choksi",
+"fav sport" : "football" ,},
+
+{ "name" : "Keval",
+"fav. color" : "green",
+"age" : "22",
+"last name" : "choksi",
+"fav sport" : "football" },
+
+{ "name" : "liv",
+"fav. color" : "green",
+"age" : "19",
+"last name" : "Beruti",
+"fav sport" : "skating" },
+
+{ "name" : "Swara",
+"fav. color" : "pink",
+"age" : "20",
+"last name" : "Rajesh",
+"fav sport": "NA" } 
+]
+
+    let foodArray = ["cheetos", "donuts", "apples", "salmon", "cupcakes", "brocoli"]
+
+    let holder = document.getElementById ('holder')
+
+    for(let i=0; i<foodArray.length; i++){
+        let Placeholder = document.createElement ('div')
+        let title = document.createElement('h1')
+        let text = document.createElement('p')
+        let image = document.createElement ('img')
+        title.innerHTML= goobers[i].name
+        text.innerHTML= goobers[i].type + "<br>" + goobers[i].skill + "<br>" + goobers[i].weakness + "<br>" + goobers[i].catchPhrase   
+       image.src = goobers[i].image
+        
+        // Placeholder.innerHTML = "Name: " + goobers[i].name + "<br>" +
+        // "catchphrase: " + goobers[i].catchPhrase
+
+        Placeholder.style.backgroundColor = goobers[i].backgroundColor
+        Placeholder.style.color = goobers[i].textColor
+        Placeholder.style.flexWrap = "wrap"
+        Placeholder.style.image = "100px"
+
+        
+        Placeholder.append(title)
+        Placeholder.append(text)
+        Placeholder.append (image)
+        holder.append(Placeholder)
+
+    }
+           
+        </script>
+
+
+    </body>
+</html>

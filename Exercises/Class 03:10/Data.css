@@ -1,0 +1,16 @@
+#holder {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px
+}
+
+div{ 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 20px; 
+    flex-grow: 12; 
+    opacity: 0.3;
+}
+
+div:hover{ 
+    opacity: 1;
+}
