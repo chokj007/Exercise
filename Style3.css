@@ -1,0 +1,55 @@
+
+
+div{ 
+    font-size: 40px; 
+    text-align:center;
+    padding: 5%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#verbSpan { 
+    color: rgb(94, 94, 198)
+}
+
+#verbSpan:hover { 
+    color:rgb(149, 198, 94);
+    font-size: 60px;
+}
+
+#nounSpan { 
+    
+    color:rgb(198, 160, 94);
+}
+
+#nounSpan:hover { 
+    color: rgb(198, 94, 196);
+    font-size: 60px
+}
+
+#adjectiveSpan { 
+    color: rgb(149, 198, 94)
+}
+
+#adjectiveSpan:hover { 
+    color:rgb(94, 94, 198);
+    font-size: 60px;
+}
+
+#eventSpan { 
+    color:rgb(198, 94, 196)
+   
+}
+
+#eventSpan:hover { 
+    color: rgb(198, 160, 94);
+    font-size: 100px;
+}
+
+.wrapper { 
+    margin: 20% 15%
+}
+
+
+.custom {
+    cursor: url(MadLibs_logo_no_Phil.png), auto;
+}  
