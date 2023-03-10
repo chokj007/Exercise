@@ -1,0 +1,20 @@
+
+#data-output{ 
+ display: grid;
+ grid-template-columns: repeat(2, 1fr);
+ grid-column-gap: 10px;
+    }
+
+    .style { 
+    padding: 20px }
+    
+
+    body{
+        text-align: center
+    } 
+
+
+img {
+    height: 20vw;
+    width:auto
+}
