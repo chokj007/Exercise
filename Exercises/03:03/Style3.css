@@ -31,6 +31,22 @@ div{
     font-size: 60px
 }
 
+#nounSpan2 :hover { 
+    color: rgb(198, 94, 196);
+    font-size: 60px
+}
+
+#nounSpan3:hover { 
+    color: rgb(198, 94, 196);
+    font-size: 60px
+}
+
+#nounSpan4:hover { 
+    color: rgb(198, 94, 196);
+    font-size: 60px
+}
+
+
 /* VERB SPANS */
 
 #verbSpan { 
@@ -51,14 +67,43 @@ div{
     font-size: 60px;
 }
 
-/* VERB SPANS */
+#verbSpan2:hover { 
+    color:rgb(149, 198, 94);
+    font-size: 60px;
+}
+
+#verbSpan3:hover { 
+    color:rgb(149, 198, 94);
+    font-size: 60px;
+}
+
+
+/* ADJECTIVE SPANS */
 
 
 #adjectiveSpan { 
     color: rgb(149, 198, 94)
 }
 
+#adjectiveSpan2 { 
+    color: rgb(149, 198, 94)
+}
+
+#adjectiveSpan3 { 
+    color: rgb(149, 198, 94)
+}
+
 #adjectiveSpan:hover { 
+    color:rgb(94, 94, 198);
+    font-size: 60px;
+}
+
+#adjectiveSpan2:hover { 
+    color:rgb(94, 94, 198);
+    font-size: 60px;
+}
+
+#adjectiveSpan3:hover { 
     color:rgb(94, 94, 198);
     font-size: 60px;
 }

@@ -9,6 +9,9 @@ let verbSpan2 = document.getElementById ('verbSpan2')
 let verbSpan3 = document.getElementById ('verbSpan3')
 
 let adjectiveSpan = document.getElementById ('adjectiveSpan')
+let adjectiveSpan2 = document.getElementById ('adjectiveSpan2')
+let adjectiveSpan3 = document.getElementById ('adjectiveSpan3')
+
 let eventSpan = document.getElementById ('eventSpan')
 
 // Created arrays
@@ -76,7 +79,7 @@ nounSpan2.addEventListener ('click', ()=> {
             })
 
     
-
+// VERB SPANS
 
 verbSpan.addEventListener ('click', ()=> {
 
@@ -112,6 +115,7 @@ verbSpan.addEventListener ('click', ()=> {
             })
 
 
+            // ADJECTIVE SPANS
 
 adjectiveSpan.addEventListener ('click', ()=> {
 
@@ -123,6 +127,28 @@ adjectiveSpan.addEventListener ('click', ()=> {
         }
     
     })
+
+    adjectiveSpan2.addEventListener ('click', ()=> {
+
+        adjectiveSpan2.innerHTML = adjectiveArray[adjectiveCounter]
+        adjectiveCounter++ 
+        
+        if(adjectiveCounter > adjectiveArray.length -1) {
+            adjectiveCounter = 0
+            }
+        
+        })
+
+        adjectiveSpan3.addEventListener ('click', ()=> {
+
+            adjectiveSpan3.innerHTML = adjectiveArray[adjectiveCounter]
+            adjectiveCounter++ 
+            
+            if(adjectiveCounter > adjectiveArray.length -1) {
+                adjectiveCounter = 0
+                }
+            
+            })
 
     eventSpan.addEventListener ('click', ()=> {
 
