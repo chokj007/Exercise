@@ -102,6 +102,8 @@ let firstJSON = [
 
     for(let i=0; i<foodArray.length; i++){
         let Placeholder = document.createElement ('div')
+// This variable is within a function- it is going to change cosntantly within the for loop
+
         let title = document.createElement('h1')
         let text = document.createElement('p')
         let image = document.createElement ('img')
@@ -123,6 +125,8 @@ let firstJSON = [
         Placeholder.append (image)
         
         holder.append(Placeholder)
+
+        // 1. Set variable , 2. take information from json file (title.innerHTML= 'json[i].name'), 3. appened the infomration (holder.append(Placeholder))
 
     }
            
